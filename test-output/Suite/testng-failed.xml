@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test">
+    <classes>
+      <class name="com.priceline.utilities.WebDriverActivity"/>
+      <class name="com.priceline.regressionSuite.Test0012_VerifyPriceLineMyTripHoverAndClickOnCheckYourFlightStatus"/>
+      <class name="com.priceline.regressionSuite.Test0019_VerifyPriceLineHelpHoverAndClickOnProfilePasswordHelp"/>
+      <class name="com.priceline.regressionSuite.Test0020_VerifyPriceLineHelpHoverAndClickOnContactUs"/>
+      <class name="com.priceline.regressionSuite.Test0015_VerifyPriceLineHelpLinkMouseHover"/>
+      <class name="com.priceline.regressionSuite.Test0013_VerifyPriceLineMyTripHoverAndClickOnViewPrintorEmailYourItinerary"/>
+      <class name="com.priceline.regressionSuite.Test0017_VerifyPriceLineHelpHoverAndClickOnFrequentlyAskedQuestions"/>
+      <class name="com.priceline.regressionSuite.Tc001_VerifyPriceLineDotcomLink"/>
+      <class name="com.priceline.regressionSuite.Test003_VerifyPriceLineHotelLink"/>
+      <class name="com.priceline.regressionSuite.Test0016_VerifyPriceLineHelpHoverAndClickOnSelfServiceLink"/>
+      <class name="com.priceline.regressionSuite.Test0010_VerifyPriceLineMyTripsLinkMouseHover"/>
+      <class name="com.priceline.regressionSuite.Tc006_VerifyPrichLineCruisesLink"/>
+      <class name="com.priceline.regressionSuite.Test008_VerifyPriceLineSignInLinkClick"/>
+      <class name="com.priceline.regressionSuite.Test0018_VerifyPriceLineHelpHoverAndClickOnFindYourRequestNumber"/>
+      <class name="com.priceline.regressionSuite.Test002_VerifyPriceLineCarLink"/>
+      <class name="com.priceline.regressionSuite.Test009_VerifyPriceLineRegisterLink"/>
+      <class name="com.priceline.regressionSuite.Tc005_VerifyPrichLinePackagesLink"/>
+      <class name="com.priceline.regressionSuite.Test0011_VerifyPriceLineMyTripHoverAndClickOnMyProfileLink"/>
+      <class name="com.priceline.regressionSuite.Tc004_VerifyPrichLineFlightsLink"/>
+      <class name="com.priceline.regressionSuite.Test007_VerifyPriceLineSignInLinkMouseHover"/>
+      <class name="com.priceline.regressionSuite.Test0014_VerifyPriceLineMyTripHoverAndClickOnCheckYourRequestStatus"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.priceline.regressionSuite.Tc004_VerifyPrichLineFlightsLink">
+        <methods>
+          <include name="handleScreenShot"/>
+        </methods>
+      </class> <!-- com.priceline.regressionSuite.Tc004_VerifyPrichLineFlightsLink -->
+      <class name="com.priceline.regressionSuite.Test0011_VerifyPriceLineMyTripHoverAndClickOnMyProfileLink">
+        <methods>
+          <include name="handleScreenShot"/>
+        </methods>
+      </class> <!-- com.priceline.regressionSuite.Test0011_VerifyPriceLineMyTripHoverAndClickOnMyProfileLink -->
+      <class name="com.priceline.regressionSuite.Test003_VerifyPriceLineHotelLink">
+        <methods>
+          <include name="handleScreenShot"/>
+        </methods>
+      </class> <!-- com.priceline.regressionSuite.Test003_VerifyPriceLineHotelLink -->
+      <class name="com.priceline.regressionSuite.Test007_VerifyPriceLineSignInLinkMouseHover">
+        <methods>
+          <include name="handleScreenShot"/>
+          <include name="verifySignInLink"/>
+        </methods>
+      </class> <!-- com.priceline.regressionSuite.Test007_VerifyPriceLineSignInLinkMouseHover -->
+      <class name="com.priceline.regressionSuite.Tc001_VerifyPriceLineDotcomLink">
+        <methods>
+          <include name="handleScreenShot"/>
+        </methods>
+      </class> <!-- com.priceline.regressionSuite.Tc001_VerifyPriceLineDotcomLink -->
+      <class name="com.priceline.regressionSuite.Tc006_VerifyPrichLineCruisesLink">
+        <methods>
+          <include name="handleScreenShot"/>
+        </methods>
+      </class> <!-- com.priceline.regressionSuite.Tc006_VerifyPrichLineCruisesLink -->
+      <class name="com.priceline.regressionSuite.Test0014_VerifyPriceLineMyTripHoverAndClickOnCheckYourRequestStatus">
+        <methods>
+          <include name="verifySignInLink"/>
+          <include name="handleScreenShot"/>
+        </methods>
+      </class> <!-- com.priceline.regressionSuite.Test0014_VerifyPriceLineMyTripHoverAndClickOnCheckYourRequestStatus -->
+      <class name="com.priceline.regressionSuite.Test0013_VerifyPriceLineMyTripHoverAndClickOnViewPrintorEmailYourItinerary">
+        <methods>
+          <include name="handleScreenShot"/>
+        </methods>
+      </class> <!-- com.priceline.regressionSuite.Test0013_VerifyPriceLineMyTripHoverAndClickOnViewPrintorEmailYourItinerary -->
+      <class name="com.priceline.regressionSuite.Test009_VerifyPriceLineRegisterLink">
+        <methods>
+          <include name="handleScreenShot"/>
+          <include name="verifySignInLink"/>
+        </methods>
+      </class> <!-- com.priceline.regressionSuite.Test009_VerifyPriceLineRegisterLink -->
+      <class name="com.priceline.regressionSuite.Test0015_VerifyPriceLineHelpLinkMouseHover">
+        <methods>
+          <include name="handleScreenShot"/>
+        </methods>
+      </class> <!-- com.priceline.regressionSuite.Test0015_VerifyPriceLineHelpLinkMouseHover -->
+      <class name="com.priceline.regressionSuite.Test0016_VerifyPriceLineHelpHoverAndClickOnSelfServiceLink">
+        <methods>
+          <include name="handleScreenShot"/>
+          <include name="verifySignInLink"/>
+        </methods>
+      </class> <!-- com.priceline.regressionSuite.Test0016_VerifyPriceLineHelpHoverAndClickOnSelfServiceLink -->
+      <class name="com.priceline.regressionSuite.Test0020_VerifyPriceLineHelpHoverAndClickOnContactUs">
+        <methods>
+          <include name="handleScreenShot"/>
+        </methods>
+      </class> <!-- com.priceline.regressionSuite.Test0020_VerifyPriceLineHelpHoverAndClickOnContactUs -->
+      <class name="com.priceline.regressionSuite.Test0010_VerifyPriceLineMyTripsLinkMouseHover">
+        <methods>
+          <include name="handleScreenShot"/>
+        </methods>
+      </class> <!-- com.priceline.regressionSuite.Test0010_VerifyPriceLineMyTripsLinkMouseHover -->
+      <class name="com.priceline.utilities.WebDriverActivity">
+        <methods>
+          <include name="teardown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.priceline.utilities.WebDriverActivity -->
+      <class name="com.priceline.regressionSuite.Tc005_VerifyPrichLinePackagesLink">
+        <methods>
+          <include name="handleScreenShot"/>
+          <include name="verifyPricelinecomLink"/>
+        </methods>
+      </class> <!-- com.priceline.regressionSuite.Tc005_VerifyPrichLinePackagesLink -->
+      <class name="com.priceline.regressionSuite.Test0012_VerifyPriceLineMyTripHoverAndClickOnCheckYourFlightStatus">
+        <methods>
+          <include name="handleScreenShot"/>
+        </methods>
+      </class> <!-- com.priceline.regressionSuite.Test0012_VerifyPriceLineMyTripHoverAndClickOnCheckYourFlightStatus -->
+      <class name="com.priceline.regressionSuite.Test008_VerifyPriceLineSignInLinkClick">
+        <methods>
+          <include name="handleScreenShot"/>
+          <include name="verifySignInLink"/>
+        </methods>
+      </class> <!-- com.priceline.regressionSuite.Test008_VerifyPriceLineSignInLinkClick -->
+      <class name="com.priceline.regressionSuite.Test002_VerifyPriceLineCarLink">
+        <methods>
+          <include name="handleScreenShot"/>
+          <include name="verifyPricelinecomLink"/>
+        </methods>
+      </class> <!-- com.priceline.regressionSuite.Test002_VerifyPriceLineCarLink -->
+      <class name="com.priceline.regressionSuite.Test0017_VerifyPriceLineHelpHoverAndClickOnFrequentlyAskedQuestions">
+        <methods>
+          <include name="handleScreenShot"/>
+        </methods>
+      </class> <!-- com.priceline.regressionSuite.Test0017_VerifyPriceLineHelpHoverAndClickOnFrequentlyAskedQuestions -->
+      <class name="com.priceline.regressionSuite.Test0019_VerifyPriceLineHelpHoverAndClickOnProfilePasswordHelp">
+        <methods>
+          <include name="handleScreenShot"/>
+        </methods>
+      </class> <!-- com.priceline.regressionSuite.Test0019_VerifyPriceLineHelpHoverAndClickOnProfilePasswordHelp -->
+      <class name="com.priceline.regressionSuite.Test0018_VerifyPriceLineHelpHoverAndClickOnFindYourRequestNumber">
+        <methods>
+          <include name="handleScreenShot"/>
+        </methods>
+      </class> <!-- com.priceline.regressionSuite.Test0018_VerifyPriceLineHelpHoverAndClickOnFindYourRequestNumber -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

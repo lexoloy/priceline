@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestSuite" time="0.131" tests="41" errors="0" skipped="38" failures="3">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\newjdk1.8.0_77\jre\bin"/>
+    <property name="java.vm.version" value="25.77-b03"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\abhi\workspace\pricelineTest"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\abhi\workspace\pricelineTest"/>
+    <property name="java.runtime.version" value="1.8.0_77-b03"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\newjdk1.8.0_77\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\abhi\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Users\abhi\workspace\apache-maven-3.3.9\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\newjdk1.8.0_77\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Lenovo\FusionEngine;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Common Files\lenovo\easyplussdk\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\Skype\Phone\;C:\Users\abhi\workspace\apache-maven-3.3.9\bin; C:\Users\abhi\workspace\apache-maven-3.3.9\bin;C:\Program Files\Java\newjdk1.8.0_77\bin;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\abhi"/>
+    <property name="user.timezone" value="America/New_York"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="abhi"/>
+    <property name="java.class.path" value="C:\Users\abhi\workspace\apache-maven-3.3.9\boot\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\newjdk1.8.0_77\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_77"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\newjdk1.8.0_77\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\newjdk1.8.0_77\jre\lib\resources.jar;C:\Program Files\Java\newjdk1.8.0_77\jre\lib\rt.jar;C:\Program Files\Java\newjdk1.8.0_77\jre\lib\sunrsasign.jar;C:\Program Files\Java\newjdk1.8.0_77\jre\lib\jsse.jar;C:\Program Files\Java\newjdk1.8.0_77\jre\lib\jce.jar;C:\Program Files\Java\newjdk1.8.0_77\jre\lib\charsets.jar;C:\Program Files\Java\newjdk1.8.0_77\jre\lib\jfr.jar;C:\Program Files\Java\newjdk1.8.0_77\jre\classes"/>
+    <property name="sun.stderr.encoding" value="cp437"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Users\abhi\workspace\apache-maven-3.3.9"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.stdout.encoding" value="cp437"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="verifySignInLink" classname="com.priceline.regressionSuite.Test0012_VerifyPriceLineMyTripHoverAndClickOnCheckYourFlightStatus" time="0.015">
+    <failure type="java.lang.NullPointerException:"><![CDATA[java.lang.NullPointerException: null
+	at org.openqa.selenium.interactions.Actions.<init>(Actions.java:44)
+	at com.priceline.pricelinePages.LandingPage.clickOnCheckYourFlightStatus(LandingPage.java:111)
+	at com.priceline.regressionSuite.Test0012_VerifyPriceLineMyTripHoverAndClickOnCheckYourFlightStatus.verifySignInLink(Test0012_VerifyPriceLineMyTripHoverAndClickOnCheckYourFlightStatus.java:16)
+]]></failure>
+  </testcase>
+  <testcase name="handleScreenShot" classname="com.priceline.regressionSuite.Test0012_VerifyPriceLineMyTripHoverAndClickOnCheckYourFlightStatus" time="0.017">
+    <failure type="java.lang.NullPointerException:">java.lang.NullPointerException: null
+	at com.priceline.utilities.WebDriverActivity.captureScreenShot(WebDriverActivity.java:212)
+	at com.priceline.utilities.WebDriverActivity.handleScreenShot(WebDriverActivity.java:151)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:514)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:215)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:707)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+</failure>
+  </testcase>
+  <testcase name="verifySignInLink" classname="com.priceline.regressionSuite.Test0019_VerifyPriceLineHelpHoverAndClickOnProfilePasswordHelp" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="handleScreenShot" classname="com.priceline.regressionSuite.Test0019_VerifyPriceLineHelpHoverAndClickOnProfilePasswordHelp" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="verifySignInLink" classname="com.priceline.regressionSuite.Test0020_VerifyPriceLineHelpHoverAndClickOnContactUs" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="handleScreenShot" classname="com.priceline.regressionSuite.Test0020_VerifyPriceLineHelpHoverAndClickOnContactUs" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="verifySignInLink" classname="com.priceline.regressionSuite.Test0015_VerifyPriceLineHelpLinkMouseHover" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="handleScreenShot" classname="com.priceline.regressionSuite.Test0015_VerifyPriceLineHelpLinkMouseHover" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="verifySignInLink" classname="com.priceline.regressionSuite.Test0013_VerifyPriceLineMyTripHoverAndClickOnViewPrintorEmailYourItinerary" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="handleScreenShot" classname="com.priceline.regressionSuite.Test0013_VerifyPriceLineMyTripHoverAndClickOnViewPrintorEmailYourItinerary" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="verifySignInLink" classname="com.priceline.regressionSuite.Test0017_VerifyPriceLineHelpHoverAndClickOnFrequentlyAskedQuestions" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="handleScreenShot" classname="com.priceline.regressionSuite.Test0017_VerifyPriceLineHelpHoverAndClickOnFrequentlyAskedQuestions" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="verifyPricelinecomLink" classname="com.priceline.regressionSuite.Tc001_VerifyPriceLineDotcomLink" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="handleScreenShot" classname="com.priceline.regressionSuite.Tc001_VerifyPriceLineDotcomLink" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="verifyPricelinecomLink" classname="com.priceline.regressionSuite.Test003_VerifyPriceLineHotelLink" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="handleScreenShot" classname="com.priceline.regressionSuite.Test003_VerifyPriceLineHotelLink" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="verifySignInLink" classname="com.priceline.regressionSuite.Test0016_VerifyPriceLineHelpHoverAndClickOnSelfServiceLink" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="handleScreenShot" classname="com.priceline.regressionSuite.Test0016_VerifyPriceLineHelpHoverAndClickOnSelfServiceLink" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="verifySignInLink" classname="com.priceline.regressionSuite.Test0010_VerifyPriceLineMyTripsLinkMouseHover" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="handleScreenShot" classname="com.priceline.regressionSuite.Test0010_VerifyPriceLineMyTripsLinkMouseHover" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="verifyPricelinecomLink" classname="com.priceline.regressionSuite.Tc006_VerifyPrichLineCruisesLink" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="handleScreenShot" classname="com.priceline.regressionSuite.Tc006_VerifyPrichLineCruisesLink" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="verifySignInLink" classname="com.priceline.regressionSuite.Test008_VerifyPriceLineSignInLinkClick" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="handleScreenShot" classname="com.priceline.regressionSuite.Test008_VerifyPriceLineSignInLinkClick" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="verifySignInLink" classname="com.priceline.regressionSuite.Test0018_VerifyPriceLineHelpHoverAndClickOnFindYourRequestNumber" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="handleScreenShot" classname="com.priceline.regressionSuite.Test0018_VerifyPriceLineHelpHoverAndClickOnFindYourRequestNumber" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="verifyPricelinecomLink" classname="com.priceline.regressionSuite.Test002_VerifyPriceLineCarLink" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="handleScreenShot" classname="com.priceline.regressionSuite.Test002_VerifyPriceLineCarLink" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="verifySignInLink" classname="com.priceline.regressionSuite.Test009_VerifyPriceLineRegisterLink" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="handleScreenShot" classname="com.priceline.regressionSuite.Test009_VerifyPriceLineRegisterLink" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="verifyPricelinecomLink" classname="com.priceline.regressionSuite.Tc005_VerifyPrichLinePackagesLink" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="handleScreenShot" classname="com.priceline.regressionSuite.Tc005_VerifyPrichLinePackagesLink" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="verifySignInLink" classname="com.priceline.regressionSuite.Test0011_VerifyPriceLineMyTripHoverAndClickOnMyProfileLink" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="handleScreenShot" classname="com.priceline.regressionSuite.Test0011_VerifyPriceLineMyTripHoverAndClickOnMyProfileLink" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="verifyPricelinecomLink" classname="com.priceline.regressionSuite.Tc004_VerifyPrichLineFlightsLink" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="handleScreenShot" classname="com.priceline.regressionSuite.Tc004_VerifyPrichLineFlightsLink" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="verifySignInLink" classname="com.priceline.regressionSuite.Test007_VerifyPriceLineSignInLinkMouseHover" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="handleScreenShot" classname="com.priceline.regressionSuite.Test007_VerifyPriceLineSignInLinkMouseHover" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="verifySignInLink" classname="com.priceline.regressionSuite.Test0014_VerifyPriceLineMyTripHoverAndClickOnCheckYourRequestStatus" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="handleScreenShot" classname="com.priceline.regressionSuite.Test0014_VerifyPriceLineMyTripHoverAndClickOnCheckYourRequestStatus" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="teardown" classname="com.priceline.utilities.WebDriverActivity" time="0.099">
+    <failure type="java.lang.NullPointerException:">java.lang.NullPointerException: null
+	at com.priceline.utilities.WebDriverActivity.teardown(WebDriverActivity.java:168)
+</failure>
+  </testcase>
+</testsuite>

@@ -1,0 +1,5 @@
+com\priceline\pricelinePages\LandingPage.class
+com\priceline\utilities\Base.class
+com\priceline\utilities\Base$1.class
+com\priceline\utilities\WebDriverActivity.class
+com\priceline\utilities\ReadConfigFile.class
